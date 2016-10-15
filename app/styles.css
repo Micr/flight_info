@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+.flight, .titles {
+  display: flex;
+  flex-direction: row;
+}
+.flight div, .titles div {
+  flex: 0 0 300px;
+}
